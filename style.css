@@ -1,0 +1,16 @@
+#sortButton{
+    background-color:#BC9B6A;
+    color:rgb(110, 1, 1);
+    padding:8px;
+    border-radius:5px
+}
+
+#bars:hover{
+
+    fill: #BC9B6A;
+}
+
+#group-by{
+    border-radius:5px;
+    padding:8px;
+}

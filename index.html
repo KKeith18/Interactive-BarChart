@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+    <script defer src="script.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!--Css reset-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+      
+    <!-- Milligram CSS -->
+   <!---- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+        -->
+    <!-- Include  style.css here -->
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <div class = "container">
+        <h1>Coffee House Chains</h1>
+        <div class = row>
+            <label for = 'group-by'>Group By</label>
+            <select id = "group-by">
+                <option value = 'stores'>Stores worldwide</option>
+                <option value = 'revenue'>Revenue in billion U.S dollars</option>
+            </select>
+            <button id = 'sortButton'>Toggle Sort</button>
+        </div>
+        <div class = row>
+            <div class = "barchart_Container"></div>
+        </div>
+
+
+
+    </div>
+</body>
